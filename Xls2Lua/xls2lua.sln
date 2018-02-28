@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 14.00
+# Visual Studio 2015
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "xls2lua", "xls2lua\xls2lua.vcxproj", "{EBC850E6-8E97-4323-8A81-7E8C45FF19B7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EBC850E6-8E97-4323-8A81-7E8C45FF19B7}.Debug|Win32.ActiveCfg = Debug|Win32
+		{EBC850E6-8E97-4323-8A81-7E8C45FF19B7}.Debug|Win32.Build.0 = Debug|Win32
+		{EBC850E6-8E97-4323-8A81-7E8C45FF19B7}.Release|Win32.ActiveCfg = Release|Win32
+		{EBC850E6-8E97-4323-8A81-7E8C45FF19B7}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
