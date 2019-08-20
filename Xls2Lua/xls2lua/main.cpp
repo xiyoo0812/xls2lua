@@ -149,15 +149,13 @@ int main(int argc, char **argv) {
 	printf("Excel file(xls/xlsx) convert lua tool, Version 0.1.0\n\n");
 	printf("********************************************************************\n");
 	printf("本工具使用注意事项：\n");
-	printf("1、请将需要转成lua配置的xls文件放到工具所在目录下的xls目录。\n");
-	printf("2、每个xls文件只支持转第一个sheet，并且命名为Sheet1。\n");
+	printf("1、支持xls/xlsx格式的文档导出到lua。\n");
+	printf("2、用法：xls2lua.exe xls_dir [lua_dir]。\n");
 	printf("3、Excel配置表第一行为字段名，第二行为字段类型（string为字符串，不填默认数字），第三行为字段解析，从第四行开始为数据。\n");
-	printf("4、字段解析不导出，如果第一行字段名为空，则该字段不导出到lua。\n");
-	printf("5、导出的lua文件在本目录下的lua文件夹里，如果没有该文件夹请自己建该文件夹。\n");
-	printf("6、表头字段名不能以大写字母开头后跟数字，如F1、F2，这是Excel的关键字。\n");
-	printf("7、数据格子读到空值则中断该表的导出，因此第一列不能配置空值。\n");
-	printf("8、如果提示缺少驱动程序，请完整安装Office任意版本。\n");
-	printf("9、如果希望导出{[key] = {...}}格式lua表，则第一字段命名为id。\n");
+	printf("4、字段解析不导出，字段名为空该列不导出。\n");
+	printf("5、如果提示缺少驱动程序，请下载安装AccessDatabaseEngine。\n");
+	printf("6、如果希望导出{[key] = {...}}格式lua表，则第一列字段命名为id。\n");
+	printf("https://github.com/xiyoo0812/xls2lua。\n");
 	printf("********************************************************************\n\n\n");
 
 	printf("开始导出文件，请稍等！\n");
