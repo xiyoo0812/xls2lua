@@ -5,8 +5,6 @@
 
 #import "C:\Program Files\Common Files\System\ADO\msado15.dll" no_namespace rename("EOF", "adoEOF") rename("BOF", "adoBOF")
 
-const int writeRows = 50000;
-
 inline void TESTHR(HRESULT x) {if FAILED(x) _com_issue_error(x);};
 
 std::wstring a2uc(const char * buffer, int len) {
